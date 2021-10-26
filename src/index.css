@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.topnav {
+  background-color: #32502E;
+  overflow: hidden;
+  margin-top: -87px
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F3EFCC;
+  color: black;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+a:active {color:#37a345;}
+
+.btn,.backbtn {
+  background-color: #4CAF50; /* Green */
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 4px 1px #031b04 ;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 8px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn,.backbtn {
+  background-color: #175010; 
+  color: rgb(255, 255, 255); 
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+.btnBooked {
+  background-color: orangered; 
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 4px 1px #031b04 ;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 8px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btnBooked  {
+  background-color: orangered; 
+  color: rgb(255, 255, 255); 
+}
+
+.btnBooked :hover {
+  background-color: orangered;
+  color: white;
+}
+
+
+.table{
+  border-radius: 5px;
+  background-color: #ECE7B4;
+  padding: 15px;
+  width: 792px;
+  margin: auto;
+  margin-top:8px ;
+  box-shadow: 3px 5px 10px 1px #32502e;
+}
+.carttable{
+  border-radius: 5px;
+  background-color: #ECE7B4;
+  padding: 15px;
+  width: 792px;
+  margin: auto;
+  margin-top:44px ;
+  box-shadow: 3px 5px 10px 1px #32502e;
+}
+.thead,.tbody{
+  border-radius: 5px;
+  border:none;
+}
+
+.cartCount{
+  text-align: right;
+  margin-top: -25px;
+  color: white;
+  padding-right: 4px;
+}
+.timeLeft{
+  text-align: right;
+    font-family: inherit;
+    font-size: initial;
+    font-weight: 500;
+}
+.freeSeats{
+  text-align: right;
+    margin-top: -50px;
+    font-size: 22px;
+    /* padding-left: 27px; */
+    margin-right: 4px;
+    font-weight: inherit;
+    font-size: large;
+}
+.classSchedule{
+  margin-top: -4px;
+  font-size: 28px;
+  margin-left: 2px;
+  font-family: sans-serif
+  
+}
+td{
+  text-align: center;
+  font-family: "Lucida Console";
+  font-size: 13px;
+    line-height: 16px
+}
+.backbtn{
+  margin-top: 21px;
+}
+h1{
+  color:#11380c
+}
+.h1{
+  color:#175010
+}
